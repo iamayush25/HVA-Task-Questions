@@ -8,4 +8,4 @@ for (let i = 0; i <= number; i++) {
     a1 = a2 ; 
     a2 = a3
     console.log(a3);
-}   
+}
