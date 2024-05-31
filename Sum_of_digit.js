@@ -1,7 +1,8 @@
 let input = require('readline-sync')
-let number = input.question('Enter The Number : ')
-let sum = 0;
-for (let i = 0; i <= number.length; i++) {
-    sum = 
-    console.log(sum); 
+let number = input.questionInt('Enter The Number : ')
+for (let i = 0; i <= number; i++) {
+    remainder = number % 10;
+    var sumOfDigits = sumOfDigits + remainder;
+    number = Math.floor(number/10);
 }
+console.log(number);
